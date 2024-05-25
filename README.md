@@ -20,7 +20,7 @@
 
 ## Modules
 
-- [Building University Management System Part-1](./module-10/README.md)
+- [Building University Management System Part-1](./module-11/README.md)
 
 ## Contact
 

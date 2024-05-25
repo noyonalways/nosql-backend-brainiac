@@ -17,3 +17,129 @@
 13. Create index route and module summary
 
 ## Table of Contents:
+
+- [What is SDLC, How we should start a project](#what-is-sdlc-how-we-should-start-a-project)
+  - [MVP stands for Minimum Viable Product.](#mvp-stands-for-minimum-viable-product)
+  - [How a Software Should Start?](#how-a-software-should-start)
+  - [Analyze](#analyze)
+  - [Design](#design)
+  - [Development](#development)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+  - [Maintenance](#maintenance)
+  - [SDLC (ideal)](#sdlc-ideal)
+  - [How we will start?](#how-we-will-start)
+
+# What is SDLC, How we should start a project
+
+### MVP stands for Minimum Viable Product.
+
+### How a Software Should Start?
+
+1. Planning
+2. Analyze
+3. Design
+4. Implementation
+5. Testing & Integration
+6. Maintenance
+
+### Analyze
+
+- Product Owner
+- Project Manager
+- Business Analyst
+
+Product Requirements Document (PRD)
+
+Business Requirements Document (BRD)
+
+Software Requirements Specification (SRS)
+
+Functional Requirements Document (FRD)
+
+### Design
+
+- System Architect
+- UI/UX Designer
+
+System Design of Software
+
+High Level Design Document
+
+Low Level Document
+
+Database Schema
+
+### Development
+
+- Frontend Developer
+- Backend Developer
+- Full-stack Developer
+
+Backend Development
+
+Frontend Development
+
+API integration
+
+Database Schema
+
+### Testing
+
+- Solution Architect
+- QA Engineer
+- Tester
+
+Test Plan
+
+Test Case
+
+Test Scripts
+
+Defetcs Report
+
+### Deployment
+
+- Database Administrator
+- DevOps
+
+Release Notes
+
+Installation Guides
+
+Configuration Guides
+
+### Maintenance
+
+- Support Engineer
+- Tester
+- Developer
+
+Change Request
+
+Bug Reports
+
+Parch Release
+
+### SDLC (ideal)
+
+Size wise software companies:
+
+- Start up
+- Small
+- Mid
+- Large
+
+Type wise software companies
+
+- Product Development
+- Ed Tech
+- Service
+- Health Care
+
+### How we will start?
+
+- Requirement Analysis
+- ER Diagram
+- API Endpoints
+- Wireframe
