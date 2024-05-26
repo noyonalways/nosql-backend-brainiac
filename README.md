@@ -21,6 +21,7 @@
 ## Modules
 
 - [Building University Management System Part-1](./module-11/README.md)
+- [Building PH University Management System Part-2](./module-12/README.md)
 
 ## Contact
 
