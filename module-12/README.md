@@ -15,3 +15,30 @@
 11. Complete generateStudent() utility function
 
 ## Table of Contents:
+
+- [Avoid Repetition of Try-Catch, use catchAsync](#avoid-repetition-of-try-catch-use-catchasync)
+  - [Higher Order Function:](#higher-order-function)
+- [Create Academic Semester Interface](#create-academic-semester-interface)
+  - [Semester Code](#semester-code)
+
+# Avoid Repetition of Try-Catch, use catchAsync
+
+### Higher Order Function:
+
+A function that takes a function, do some tasks and return a function.
+
+# Create Academic Semester Interface
+
+Generated ID: `yeaer` `semesterCode` `4 digits code`
+
+Example: 2030 01 0001
+
+Client → Default Passoword: phuniversity!@# | pass1234
+
+### Semester Code
+
+01 = Autumn
+
+02 = Summer
+
+03 = Fall
