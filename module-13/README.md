@@ -27,6 +27,9 @@
   - [D - Durability](#d---durability)
   - [When should we use Transaction?](#when-should-we-use-transaction)
   - [Transaction Steps:](#transaction-steps)
+- [Dynamically update both primitive \& non primitive fields](#dynamically-update-both-primitive--non-primitive-fields)
+  - [Updating Nested object with sub Schemas](#updating-nested-object-with-sub-schemas)
+  - [Example](#example)
 
 # Fix your previous bugs
 
@@ -87,3 +90,65 @@ Two or more database write operation.
 - commitTransaction() - when succeed
 - abortTransaction() - when failed
 - endSession()
+
+# Dynamically update both primitive & non primitive fields
+
+### Updating Nested object with sub Schemas
+
+```ts
+/students/:studentId (PATCH)
+
+{
+  "name": {
+    "lastName": "Doe"
+  }
+}
+```
+
+But we have to keep a **consistent data structure** for creating and updating students. So we need to covert nested objects to flattened fields in the service layer for updating the student.
+
+**Handle Logic in Backend**
+
+### Example
+
+```ts
+// update student
+const updateSingle = async (id: string, payload: IStudent) => {
+  if (!(await Student.isStudentExists("id", id))) {
+    throw customError(false, httpStatus.NOT_FOUND, "student not found");
+  }
+
+  // destructure the non-primitive data
+  const { name, guardian, localGuardian, ...remainingData } = payload;
+
+  const modifiedObj: Record<string, unknown> = {
+    ...remainingData,
+  };
+
+  // name
+  if (name && Object.keys(name).length) {
+    for (const [key, value] of Object.entries(name)) {
+      modifiedObj[`name.${key}`] = value;
+    }
+  }
+  // guardian
+  if (guardian && Object.keys(guardian).length) {
+    for (const [key, value] of Object.entries(guardian)) {
+      modifiedObj[`guardian.${key}`] = value;
+    }
+  }
+  // local guardian
+  if (localGuardian && Object.keys(localGuardian).length) {
+    for (const [key, value] of Object.entries(localGuardian)) {
+      modifiedObj[`localGuardian.${key}`] = value;
+    }
+  }
+
+  const result = Student.findOneAndUpdate({ id }, modifiedObj, {
+    new: true,
+    runValidators: true,
+  });
+
+  return result;
+};
+```
