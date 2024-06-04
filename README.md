@@ -18,12 +18,23 @@
     </h3>
 </p>
 
+<a href="https://lucid.app/lucidchart/363476ce-0481-4107-bb33-d29849993a0b/edit?viewport_loc=-1050%2C302%2C1664%2C773%2C0_0&invitationId=inv_cf4a1c3b-d4bd-47e2-a23d-8fce15e48b7f" target="_blank">
+  <img src="https://img.shields.io/badge/-Lucid%20Diagram-black.svg?style=round-square&logo=lucid&color=555&logoColor=f96b13" />
+</a>
+<a href="https://noyonalways.notion.site/PH-University-Requirements-Analysis-96c8bbaadfb84f37adac1c3607538641?pvs=4" target="_blank">
+  <img src="https://img.shields.io/badge/-Documentation-black.svg?style=round-square&logo=notion&color=555&logoColor=white" />
+</a>
+
 ## Modules
 
 - [Building University Management System Part-1](./module-11/README.md)
 - [Building PH University Management System Part-2](./module-12/README.md)
 - [Building PH University Management System Part-3](./module-13/README.md)
 - [Building PH University Management System Part-4](./module-14/README.md)
+
+## Practice Task
+
+- [Practice Task - 1](./practice-tasks/task-1.md)
 
 ## Contact
 
