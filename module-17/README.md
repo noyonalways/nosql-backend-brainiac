@@ -5,7 +5,7 @@
 1. Authentication, Authorization, Create interface, controller, validation service
 2. Implement business logic validation in auth service.
 3. Implement statics for validation
-4. Intro to JWT , create an accessToken.
+4. Introduction to JWT, create an accessToken.
 5. Create auth middleware
 6. Verify token using auth
 7. Implement authorization using auth
