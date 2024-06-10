@@ -29,6 +29,7 @@
 - [Building PH University Management System Part-4](./module-14/README.md)
 - [Building PH University Management System Part-5](./module-15/README.md)
 - [Building PH University Management System Part-6](./module-16/README.md)
+- [Building PH University Management System Part-7](./module-17/README.md)
 
 ## Practice Task
 
