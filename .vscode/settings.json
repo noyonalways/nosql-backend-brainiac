@@ -1,10 +1,13 @@
 {
   "cSpell.words": [
     "Brainiac",
+    "Cloudinary",
     "conflictions",
     "nosql",
     "Noyon",
     "Rahman",
     "SDLC"
-  ]
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

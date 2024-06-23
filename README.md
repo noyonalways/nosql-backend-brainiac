@@ -1,3 +1,5 @@
+<div align="center">
+  
 [![Youtube][youtube-shield]][youtube-url]
 [![Facebook][facebook-shield]][facebook-url]
 [![Facebook Page][facebook-shield]][facebook-group-url]
@@ -6,20 +8,22 @@
 [![VS Code Theme][vscode-shield]][vscode-theme-url]
 [![NPM Package][npm-shield]][npm-package-url]
 
+</div>
+
 <!-- PROJECT LOGO -->
 <br />
-
-<p align="center">
-    <img src="https://i.ibb.co/c64q254/noyon-logo-dark.png" alt="Logo" width="80" height="80" />
-    <h3 align="center">
-        <a href="https://github.com/noyonalways/nosql-backend-brainiac" target="_blank" >
-            Be A NoSQL Backend Brainiac
-        </a>
-    </h3>
-</p>
+<div align="center">
+  <img src="https://i.ibb.co/c64q254/noyon-logo-dark.png" alt="Logo" width="80" height="80" />
+  <h3 align="center">
+    <a href="https://github.com/noyonalways/nosql-backend-brainiac" target="_blank" >
+      Be A NoSQL Backend Brainiac
+    </a>
+  </h3>
 
 [![Lucid Chart][lucid-chart-shield]][lucid-chart-url]
 [![Notion Doc][notion-doc-shield]][notion-doc-url]
+
+</div>
 
 ## Modules
 
@@ -30,6 +34,7 @@
 - [Building PH University Management System Part-5](./module-15/README.md)
 - [Building PH University Management System Part-6](./module-16/README.md)
 - [Building PH University Management System Part-7](./module-17/README.md)
+- [Assignment-3 🚀 (Mission-3)](./module-18/README.md)
 
 ## Practice Task
 
